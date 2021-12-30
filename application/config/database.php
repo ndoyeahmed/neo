@@ -3,10 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $active_group = 'default';
 $query_builder = TRUE;
-$hostname ='localhost';
-$username ='root';
-$password ='';
-$database ='neo';	
+$hostname =' mysql-neo.alwaysdata.net';
+$username ='neo';
+$password ='passer@123';
+$database ='neo_bd';	
 
 $db['default'] = array(
 	'dsn'	=> '',
